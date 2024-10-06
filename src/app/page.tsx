@@ -1,6 +1,7 @@
 import Image from "next/image";
 import WinWallpaper from "../assets/WinWallpaper.jpg";
 import RetroBar from "../components/RetroBar";
+import "xp.css/dist/XP.css";
 
 export default function Home() {
   return (

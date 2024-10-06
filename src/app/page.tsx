@@ -1,5 +1,6 @@
 import Image from "next/image";
 import WinWallpaper from "../assets/WinWallpaper.jpg";
+import RetroBar from "../components/RetroBar";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         objectPosition="center"
         quality={100} // Garante a melhor qualidade possível       object-fit="cover"
       />
+      <RetroBar />
     </div>
   )
 }

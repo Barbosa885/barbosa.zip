@@ -9,8 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        retroGray: "#C0C0C0",
+        retroGreen: "#008000",
+        retroBlue: "#0000FF",
       },
     },
   },

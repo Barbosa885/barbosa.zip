@@ -8,17 +8,15 @@ export default function RetroBar() {
 
   return (
     <div className="fixed bottom-0 bg-retroGray h-12 w-full border-t border-gray-400 flex items-center text-sm">
-      <div className="flex items-center">
-        <button className="px-2" onClick={() => setStartMenuOpen(!startMenuOpen)} >
+        <button className="px-4 flex items-center" onClick={() => setStartMenuOpen(!startMenuOpen)} >
           <Image 
             src={WinIcon}
             height={46}
             width={46}
             alt="Windows Menu icon"
           />
+          <span>Start</span>
         </button>
-        <span>Start</span>
       </div>
-    </div>
   );
 }

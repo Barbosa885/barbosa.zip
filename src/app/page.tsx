@@ -14,7 +14,6 @@ export default function Home() {
         objectPosition="center"
         quality={100} // Garante a melhor qualidade possível       object-fit="cover"
       />
-      <RetroBar />
     </div>
   )
 }

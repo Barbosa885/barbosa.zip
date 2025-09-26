@@ -5,34 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Title</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style>
-      @font-face {
-        font-family: "w95";
-        src: url("/fonts/w95font/w95font.woff2") format("woff2"),
-             url("/fonts/w95font/w95font.woff") format("woff"),
-             url("/fonts/w95font/w95font.otf") format("opentype");
-        font-weight: normal;
-        font-style: normal;
-      }
+    <link rel="stylesheet" href="globals.css">
 
-      @font-face {
-        font-family: "w95";
-        src: url("/assets/fonts/w95font/w95font-bold.woff2") format("woff2"),
-             url("/assets/fonts/w95font/w95font-bold.woff") format("woff"),
-             url("/assets/fonts/w95font/w95font-bold.otf") format("opentype");
-        font-weight: bold;
-        font-style: normal;
-      }
-
-      .font-w95 {
-        font-family: "w95", sans-serif;
-      }
-    </style>
 </head>
-<body>
-  <div class="min-h-screen flex flex-col justify-center items-center"> 
-    <h1 class="text-2xl font-w95 text-black font-bold">Barbosa.zip</h1>
-    <p></p>
+<body class="font-w95">
+  <div class="bg-w95-lightgray min-h-screen flex flex-col justify-center items-center"> 
+    <h1 class="text-2xl">Barbosa.zip</h1>
   </div>
 </body>
 </html>

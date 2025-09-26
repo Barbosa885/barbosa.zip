@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "w95";
+  src: url("/assets/fonts/w95font/w95font.woff2") format("woff2"),
+  url("/assets/fonts/w95font/w95font.woff") format("woff"),
+  url("/assets/fonts/w95font/w95font.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "w95";
+  src: url("/assets/fonts/w95font/w95font-bold.woff2") format("woff2"),
+  url("/assets/fonts/w95font/w95font-bold.woff") format("woff"),
+  url("/assets/fonts/w95font/w95font-bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-w95 {
+  font-family: "w95", sans-serif;
+}
+
+.bg-w95-lightgray {
+  background-color: #c0c0c0; /* Cor típica do Windows 95 */
+}
+
+.bg-w95-gray {
+  background-color: #6c6c6c;
+}
+
+.bg-w95-green {
+  background-color: #208c71;
+}
+
+.bg-w95-yellow {
+  background-color: #dfe300;
+}
+
+.bg-w95-blue {
+  background-color: #394dcd;
+}
+
+.bg-w95-red {
+  background-color: #e35f5f;
+}
+
+.text-w95-gray {
+  color: #6c6c6c;
+}
+
+.text-w95-green {
+  color: #208c71;
+}
